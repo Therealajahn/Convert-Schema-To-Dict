@@ -15,7 +15,7 @@ The script iterates over `schema.definitions` and:
 4. Handles required vs. optional properties:
    - **Required**: always included in the dictionary.
    - **Optional**: only included if a value is provided.
-5. Prints and returns the generated dictionary.
+5. Prints and returns the generated dictionary(in the browser console).
 6. Downloads the result as `json_to_dict.py`.
 
 ---
