@@ -62,6 +62,7 @@ For a schema definition like:
     "name": {"type": "string"}
   }
 }
+```
 The generated Python function will look like:
 ```
 def user(client_data):
